@@ -1,0 +1,322 @@
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .socil_link {
+
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .text>h1 {
+        padding-bottom: 2%;
+    }
+
+    .page_text>h3 {
+        padding-bottom: 2%;
+    }
+
+    nav img {
+        width: 12%;
+    }
+
+    nav {
+
+        font-size: 18px;
+    }
+
+    .text {
+
+        font-size: 18px;
+    }
+
+    .box_middle {
+        font-size: 18px;
+    }
+
+    .page_text {
+
+        font-size: 18px;
+    }
+
+    footer {
+
+        font-size: 18px;
+
+    }
+    .text{
+        width: 75%;
+        height: 11%;
+       
+    }
+    .box_left{
+        width: 38vw;
+        height: 45vh;
+    }
+    .box_right{
+        width: 38vw;
+        height: 45vh;
+    }
+   
+}
+
+@media (min-width: 875px) and (max-width: 1024px) {
+    .socil_link {
+
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .text>h1 {
+        padding-bottom: 2.5%;
+    }
+
+    .page_text>h3 {
+        padding-bottom: 2.5%;
+    }
+
+    nav img {
+        width: 15%;
+    }
+
+    nav {
+
+        font-size: 17px;
+    }
+
+    .text {
+
+        font-size: 17px;
+    }
+
+    .box_middle {
+        font-size: 17px;
+    }
+
+    .page_text {
+
+        font-size: 17px;
+    }
+
+    footer {
+
+        font-size: 17px;
+
+    }
+    .text{
+        width: 78%;
+        height: 14%;
+       
+    }
+    .box_left{
+        width: 38vw;
+        height: 45vh;
+    }
+    .box_right{
+        width: 38vw;
+        height: 45vh;
+    }
+
+}
+
+
+@media (min-width: 600px) and (max-width: 875px) {
+    .socil_link {
+
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .text>h1 {
+        padding-bottom: 2.7%;
+    }
+
+    .page_text>h3 {
+        padding-bottom: 2.7%;
+    }
+
+    nav img {
+        width: 17%;
+    }
+
+    nav {
+
+        font-size: 16px;
+    }
+
+    .text {
+
+        font-size: 16px;
+    }
+
+    .box_middle {
+        font-size: 15px;
+    }
+
+    .page_text {
+
+        font-size: 16px;
+    }
+
+    footer {
+
+        font-size: 16px;
+
+    }
+    .text{
+        width: 80%;
+        height: 16%;
+       
+    }
+    .box_left{
+        width: 38vw;
+        height: 45vh;
+    }
+    .box_right{
+        width: 38vw;
+        height: 45vh;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 600px) {
+    .socil_link {
+
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .text>h1 {
+        padding-bottom: 2.9%;
+    }
+
+    .page_text>h3 {
+        padding-bottom: 2.9%;
+    }
+
+    nav img {
+        width: 24%;
+    }
+
+    nav {
+
+        font-size: 18px;
+    }
+
+    .text {
+
+        font-size: 15px;
+    }
+
+    .box_middle {
+        font-size: 9px;
+    }
+
+    .page_text {
+
+        font-size: 15px;
+        padding-bottom: 10%;
+    }
+
+    footer {
+
+        font-size: 15px;
+
+    }
+    .text{
+        width: 85%;
+        height: 18%;
+       
+    }
+    .box_left{
+        width: 45vw;
+        height: 40vh;
+    }
+    .box_right{
+        width: 45vw;
+        height: 40vh;
+    }
+    .socil_links{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        
+        
+   }
+   .box{
+    width: 100%;
+    height: 35%;
+}
+}
+
+@media (min-width: 300px) and (max-width: 423px) {
+    .socil_link {
+
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .text>h1 {
+        padding-bottom: 2.9%;
+    }
+
+    .page_text>h3 {
+        padding-bottom: 2.9%;
+    }
+
+    nav img {
+        width: 30%;
+    }
+
+    nav {
+
+        font-size: 18px;
+    }
+
+    .text {
+
+        font-size: 14px;
+    }
+
+    .box_middle {
+        font-size: 9px;
+    }
+
+    .page_text {
+        width: 95%;
+       
+        font-size: 15px;
+        padding-bottom: 10%;
+    }
+
+    footer {
+
+        font-size: 15px;
+
+    }
+    .text{
+        width: 95%;
+        height: 18%;
+       
+    }
+    .box_left{
+        width: 45vw;
+        height: 40vh;
+    }
+    .box_right{
+        width: 45vw;
+        height: 40vh;
+    }
+    .socil_links{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        
+   }
+   .box{
+    width: 100%;
+    height: 35%;
+}
+}
