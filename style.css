@@ -9,79 +9,104 @@ body {
     width: 100%;
     height: 100%;
     background-color: #5875FB;
+
 }
+
+.main {
+    width: 100%;
+    height: 100%;
+    font-family: "Inter", serif;
+}
+
 
 nav {
     width: 100%;
-    padding: 0 5%;
-    padding-top: 30px;
-    background-color: #dadae1;
+    height: 100px;
+    /* background-color: blueviolet; */
     display: flex;
-    gap: 10px;
     align-items: center;
-    font-size: 18px;
-    font-family: "Parkinsans", serif;
-
+    justify-content: space-between;
+    padding: 0 5vw;
+    color: white;
 }
 
-.links>img {
-    width: 12%;
-    margin-right: 20%;
-}
-
-.links {
+.nav_options {
     display: flex;
-    gap: 5%;
-
     align-items: center;
+    gap: 3.2vw;
+    /* background-color: rgb(245, 242, 249); */
 }
 
-.links>a {
+.nav_options i {
+    display: none;
+    font-size: 1.5vw;
+    font-weight: 600;
 
-    color: black;
-    text-decoration: none;
 }
 
-nav button {
-    padding: 10px 20px;
+nav h2 {
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.nav_options h4 {
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+.nav_options h4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav_options button {
+    font-size: 1.2vw;
+    font-weight: 600;
+    padding: 0.7vw 2.1vw;
+    background-color: #b7e4c7;
     border: none;
-    border-radius: 10px;
-    background-color: #C3FF96;
+    border-radius: 3px;
+}
 
+.nav_options button:hover {
+    color: white;
+    background-color: #6A6851;
+    cursor: pointer;
 }
 
 .page {
-
     width: 100%;
-    height: 85%;
-    background-color: coral;
-    padding: 0 5%;
+    height: calc(100% - 100px);
+    
+    padding: 0 5vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: "Parkinsans", serif;
-
 }
 
 .page_left {
-    width: 29vw;
-    height: 50vh;
-    background-color: #1454cb6a;
-    font-size: 18px;
+    width: 34%;
+    height: 50%;
+    /* background-color: #1454cb6a; */
+
 }
 
 .page_middle {
-    width: 30vw;
-    height: 85vh;
-    background-color: rgb(212, 205, 207);
-    font-size: 18px;
+    width: 30%;
+    height: 92%;
+    /* background-color: blueviolet; */
+    background-image: url(images/phone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
 }
 
 .page_right {
-    width: 30vw;
-    height: 60vh;
-    background-color: rgb(214, 244, 138);
-    font-size: 18px;
+    width: 28%;
+    height: 60%;
+    /* background-color: rgb(75, 76, 72); */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -91,59 +116,66 @@ nav button {
 .page_left p {
     text-transform: uppercase;
     color: white;
+    font-size: 1vw;
+    margin-bottom: 1vw;
 }
 
 .page_left h1 {
-    font-size: 3.2em;
+    font-size: 4.2vw;
     color: white;
     font-weight: 500;
+    line-height: 4.2vw;
 }
 
-.page_left h1 > span {
-   
+.page_left h1>span {
+
     color: #D2CBFF;
-   
+
 }
 
-#page_left_h1_color{
-   
+#page_left_h1_color {
+
     color: #B0D2B4;
-    
-   
+
+
 }
 
-.page_middle{
-     background-image: url(images/phone.png);
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-}
-.page_right_top{
-     width: 100%;
-     height: 15%;
-     background-color: rgb(212, 205, 207);
-     display: flex;
-     justify-content: space-between;
-}
-.page_right_top_child{
-    width: 50%;
-    height: 100%;
-    background-color: rgb(212, 205, 207);
+.page_right_top {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
 }
 
-.page_right_bottom button {
-    padding: 10px 20px;
+.page_right_top_child > p{
+   font-size: 1.3vw;
+}
+.page_right_top_child > h3{
+    font-size: 2vw;
+ }
+ 
+.page_right_bottom button{
+    margin-top: 1vw;
+    font-size: 1.2vw;
+    font-weight: 600;
+    padding: 1vw 2.1vw;
+    background-color: white;
     border: none;
-    border-radius: 10px;
-    background-color: #FBFFFD;
-    margin-right: 5%;
-    font-size: 0.9em;
+    border-radius: 3px;
+    margin-right: 0.8vw;
+}
+.page_right_bottom > p{
+    font-size: 1.2vw;
+    
 }
 
 .page_right_bottom button > i{
-    
-   font-size: 1.5em;
+    font-size: 1.5vw;
 }
-.page_right_bottom p{
-     padding-bottom: 10px;
+
+.page_right > p{
+     
+     padding-left: 3vw;
+     font-size: 1vw;
+    
 }
